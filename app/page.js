@@ -42,7 +42,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Education />
-      {blogs.length > 0 && <Blog blogs={blogs} />}
       <ContactSection />
     </div>
   );
